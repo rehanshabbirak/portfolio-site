@@ -1,10 +1,11 @@
-# Qamar's Portfolio Website
+# Rehan shabbir's Portfolio Website
 
 A modern, interactive portfolio website built with React.js, featuring GSAP animations, dark/light theme toggle, and responsive design. Perfect for showcasing frontend development skills and AI/automation expertise.
 
 ## ✨ Features
 
 ### 🎨 Design & UI/UX
+
 - **Modern Design**: Clean, professional layout with purple, blue, and neon green color palette
 - **Dark/Light Theme**: Seamless theme switching with persistent user preference
 - **Custom Cursor**: Interactive animated cursor with hover effects
@@ -12,6 +13,7 @@ A modern, interactive portfolio website built with React.js, featuring GSAP anim
 - **Glass Effects**: Modern glassmorphism elements throughout the design
 
 ### 🎭 Animations & Interactions
+
 - **GSAP Animations**: Smooth entrance animations and scroll-triggered effects
 - **Micro-interactions**: Hover effects, button animations, and transitions
 - **Scroll Animations**: Elements animate as they come into view
@@ -19,6 +21,7 @@ A modern, interactive portfolio website built with React.js, featuring GSAP anim
 - **Project Card Hovers**: Interactive project cards with smooth transitions
 
 ### 📱 Sections
+
 1. **Hero Section**: Animated headline with gradient text effects and CTA buttons
 2. **About Section**: Personal information with animated statistics cards
 3. **Skills Section**: Categorized skills with animated progress bars
@@ -26,6 +29,7 @@ A modern, interactive portfolio website built with React.js, featuring GSAP anim
 5. **Contact Section**: Contact form with animated social media links
 
 ### 🛠 Technical Features
+
 - **React.js**: Modern component-based architecture
 - **Tailwind CSS**: Utility-first CSS framework for rapid styling
 - **GSAP**: Professional-grade animations and scroll triggers
@@ -36,18 +40,21 @@ A modern, interactive portfolio website built with React.js, featuring GSAP anim
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - pnpm (recommended) or npm
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
-   cd qamar-portfolio
+   cd rehan-portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    # or
@@ -55,6 +62,7 @@ A modern, interactive portfolio website built with React.js, featuring GSAP anim
    ```
 
 3. **Start development server**
+
    ```bash
    pnpm run dev
    # or
@@ -77,7 +85,7 @@ The built files will be in the `dist/` directory, ready for deployment.
 ## 📁 Project Structure
 
 ```
-qamar-portfolio/
+rehan-portfolio/
 ├── public/                 # Static assets
 ├── src/
 │   ├── components/        # React components
@@ -100,13 +108,17 @@ qamar-portfolio/
 ## 🎨 Customization
 
 ### Colors & Theme
+
 The color palette is defined in `src/App.css` using CSS custom properties:
+
 - **Primary**: Purple (`oklch(0.5 0.2 270)`)
 - **Secondary**: Blue (`oklch(0.6 0.15 240)`)
 - **Accent**: Neon Green (`oklch(0.7 0.25 120)`)
 
 ### Content
+
 Update the following files to customize content:
+
 - `src/components/Hero.jsx` - Personal headline and introduction
 - `src/components/About.jsx` - About section and statistics
 - `src/components/Skills.jsx` - Skills and expertise
@@ -114,7 +126,9 @@ Update the following files to customize content:
 - `src/components/Contact.jsx` - Contact information
 
 ### Animations
+
 GSAP animations are configured in each component. Key animation features:
+
 - Entrance animations on page load
 - Scroll-triggered animations using `ScrollTrigger`
 - Hover effects and micro-interactions
@@ -123,16 +137,19 @@ GSAP animations are configured in each component. Key animation features:
 ## 🚀 Deployment Options
 
 ### Vercel (Recommended)
+
 1. Push code to GitHub
 2. Connect repository to Vercel
 3. Deploy automatically
 
 ### Netlify
+
 1. Build the project: `pnpm run build`
 2. Upload `dist/` folder to Netlify
 3. Configure redirects for SPA
 
 ### GitHub Pages
+
 1. Install gh-pages: `npm install --save-dev gh-pages`
 2. Add deploy script to package.json
 3. Run: `npm run deploy`
@@ -157,11 +174,11 @@ Feel free to fork this project and customize it for your own portfolio. If you m
 ## 📞 Support
 
 If you have any questions or need help customizing the portfolio, feel free to reach out:
-- Email: qamar@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
+
+- Email: rehanshabbir.ak@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/rehan-shabbir-ak/]
+- GitHub: [https://github.com/rehanshabbirak]
 
 ---
 
-**Built with ❤️ by Qamar - Frontend Developer & AI Specialist**
-
+**Built with ❤️ by Rehan Shabbir - Frontend Developer & AI Specialist**
