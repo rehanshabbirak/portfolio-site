@@ -98,15 +98,16 @@ const Hero = () => {
         {/* Main headline */}
         <h1
           ref={headlineRef}
-          className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight"
+          className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight"
         >
-          Hi, I'm <span className="hero-gradient"></span>
+          Hi, I'm <span className="hero-gradient">Rehan</span>
           <br />
           <span className="text-3xl md:text-5xl lg:text-6xl font-light">
-            I bring ideas to life with{" "}
-            <span className="hero-gradient font-bold">code</span>,{" "}
-            <span className="hero-gradient font-bold">design</span>, and{" "}
-            <span className="hero-gradient font-bold">AI</span>.
+            Turning ideas into{" "}
+            <span className="hero-gradient font-bold">websites</span>,{" "}
+            <span className="hero-gradient font-bold">bots</span>, and{" "}
+            <span className="hero-gradient font-bold">AI Automations</span>.{" "}
+            that work smarter for you.
           </span>
         </h1>
 
@@ -115,9 +116,8 @@ const Hero = () => {
           ref={subtitleRef}
           className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed"
         >
-          Frontend Engineer specializing in React.js & Next.js, building
-          AI-powered tools, web automation bots, and pixel-perfect user
-          experiences.
+          Frontend Engineer | React & Next.js specialist building AI Automations
+          tools, data scraping automation bots, and seamless user experiences.
         </p>
 
         {/* CTA Buttons */}
@@ -147,7 +147,7 @@ const Hero = () => {
         {/* Social Links */}
         <div ref={socialRef} className="flex justify-center space-x-6">
           <a
-            href="https://github.com"
+            href="https://github.com/rehanshabbirak/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-110"
@@ -155,7 +155,7 @@ const Hero = () => {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/rehan-shabbir-ak/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card hover:bg-secondary hover:text-secondary-foreground transition-all duration-300 transform hover:scale-110"
@@ -163,7 +163,7 @@ const Hero = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a
-            href="mailto:qamar@example.com"
+            href="mailto:rehanshabbir.ak@gmail.com"
             className="p-3 rounded-full bg-card hover:bg-accent hover:text-accent-foreground transition-all duration-300 transform hover:scale-110"
           >
             <Mail className="h-6 w-6" />
