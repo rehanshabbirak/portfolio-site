@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollToPlugin);
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);

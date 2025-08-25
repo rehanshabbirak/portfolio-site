@@ -17,21 +17,21 @@ const Hero = () => {
     tl.fromTo(
       headlineRef.current,
       { opacity: 0, y: 50, scale: 0.9 },
-      { opacity: 1, y: 0, scale: 1, duration: 1, ease: "power3.out" },
+      { opacity: 1, y: 0, scale: 1, duration: 1, ease: "power3.out" }
     )
       // Animate subtitle
       .fromTo(
         subtitleRef.current,
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" },
-        "-=0.5",
+        "-=0.5"
       )
       // Animate CTA buttons
       .fromTo(
         ctaRef.current.children,
         { opacity: 0, y: 20 },
         { opacity: 1, y: 0, duration: 0.6, stagger: 0.2, ease: "power3.out" },
-        "-=0.3",
+        "-=0.3"
       )
       // Animate social links
       .fromTo(
@@ -44,7 +44,7 @@ const Hero = () => {
           stagger: 0.1,
           ease: "back.out(1.7)",
         },
-        "-=0.2",
+        "-=0.2"
       );
 
     // Floating animation for the entire hero content
@@ -100,7 +100,7 @@ const Hero = () => {
           ref={headlineRef}
           className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight"
         >
-          Hi, I'm <span className="hero-gradient">Rehan</span>
+          Hi, I'm <span className="hero-gradient">Rehan Shabbir</span>
           <br />
           <span className="text-3xl md:text-5xl lg:text-6xl font-light">
             Turning ideas into{" "}
